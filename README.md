@@ -1,5 +1,5 @@
 # AlgoPortAI
-Il progetto di tesi consiste nella realizzazione di un algoritmo che risolve un problema di ricerca operativa.
+Il progetto consiste nella realizzazione di un algoritmo che risolve un problema di ricerca operativa.
 Questo algoritmo serve all’ottimizzazione della logistica portuale relativa all’ingresso e uscita delle navi in porto. Tale algoritmo prende un numero N di navi che sono in rada fuori dal porto o comunque devono essere schedulate negli ingressi. 
 Tale navi ha come constrain: la banchina di attracco, e il giorno di arrivo.
 L’obiettivo di tale algoritmo è quello di restituire all’ingresso di N navi e le condimeteo delle successive 48 ore, un output di contenente data e ora, ordine di ingresso di ciascuna nave e il tempo consigliato di attracco per ogni singolo mezzo. Così facendo è possibile ottimizzare notevolmente l’afflusso delle navi in porto incrementando quindi il numero di navi annue e di conseguenza gli incassi di ADSP sui diritti di attracco.
