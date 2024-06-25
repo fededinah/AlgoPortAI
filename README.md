@@ -1,4 +1,25 @@
 # AlgoPortAI
+
+# English
+
+The project involves the development of an algorithm to solve an operational research problem. This algorithm optimizes port logistics for the entry and exit of ships. It handles a number of ships (N) that are either anchored outside the port or scheduled to enter. The constraints include the docking berth and the arrival day.
+
+The algorithm's objective is to provide an output, given the entry of N ships and the weather conditions for the next 48 hours. This output includes the date and time, the order of entry for each ship, and the recommended docking time for each vessel. By doing so, it significantly optimizes the flow of ships into the port, increasing the annual number of ships and consequently the ADSP revenue from docking fees.
+
+Additionally, the system aims to reduce the number of ships anchored outside the port, minimizing their time in the Tyrrhenian Sea and significantly reducing waiting times. This also contributes to reducing pollutant emissions in the waters of Livorno caused by long waits and time spent docked, aligning with projects aimed at reducing the port's environmental impact.
+
+The algorithm's applications extend beyond optimizing the entry of cargo and cruise ships into the port. After a training period of at least six months in real-world conditions, it can be integrated with an artificial intelligence algorithm to conduct predictive analyses of the best times for port operations, thus minimizing logistics disruptions. Besides temporal optimization for port work, it can also make cost and budget predictions for ADSP's activities in the following year.
+
+Currently, there are no similar algorithms applied to an ADSP in Italy, and there are few similar applications in Europe. Therefore, ADSP MTS could be the first port authority to utilize such an optimization system.
+
+Developing the algorithm requires approximately three months, after which it can be integrated into a server to process all data automatically and provide results on mobile clients and, if needed, ADSP desktops. Following the three-month development period, there will be a six-month training period to fine-tune input parameters and constants for optimal results under all real-world conditions. After the training period, credentials will be distributed to a limited number of ADSP internal testers, followed by the final publication of the algorithm, complete with software and access distribution to all ADSP employees.
+
+The project developer will remain available even after the system's distribution to perform general software bug fixes and continue updating and evolving the algorithm, aiming to integrate it into the daily operations of Italian and eventually European ADSPs.
+
+
+
+# Italiano
+
 Il progetto consiste nella realizzazione di un algoritmo che risolve un problema di ricerca operativa.
 Questo algoritmo serve all’ottimizzazione della logistica portuale relativa all’ingresso e uscita delle navi in porto. Tale algoritmo prende un numero N di navi che sono in rada fuori dal porto o comunque devono essere schedulate negli ingressi. 
 Tale navi ha come constrain: la banchina di attracco, e il giorno di arrivo.
